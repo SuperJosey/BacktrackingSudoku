@@ -34,7 +34,7 @@ int main(int argc, const char * argv[])
     cout<<"\nGrille après resolution:"<<endl;
     grille1.afficheResol();
     
-    cout<<"\nLe temp d'execution pour la methode 1 est de: "<<grille1.getTemp() <<endl;
+    cout<<"\nLe temp d'execution pour la methode 1 est de: "<<grille1.getTemp()<<"ms"<<endl;
     
 
     return 0;
