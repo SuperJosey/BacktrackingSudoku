@@ -174,7 +174,7 @@ bool grille::resoudre(int position){
         }
     
     clock_t fin=clock();
-    double temp=(double)(debut-fin)/CLOCKS_PER_SEC * 1000.0;
+    double temp=(double)(fin-debut)/CLOCKS_PER_SEC * 1000.0;
     setTemp(temp);
     
     return false;
