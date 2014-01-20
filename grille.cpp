@@ -15,6 +15,7 @@ using namespace std;
 
 grille::grille(){
     
+    this->_temp=0;
     initialiser();
     
 }
